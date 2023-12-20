@@ -86,7 +86,7 @@ a{
     font-size: 22px;
     font-weight: 500;
     cursor: pointer;
-    font-style: bold;
+    /* font-style: bold; */
 }
 .nav-item div a{
     color: white;
@@ -134,7 +134,7 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 2rem;
+    gap: 2rem; 
     /* border: 1px solid black; */
 
 }
@@ -534,7 +534,7 @@ a{
     margin-left: 20%;
 }
 
-#project5{
+/* #project5{
     background-image: url(./img/projects/p5.png);
     background-size: cover;
 }
@@ -543,7 +543,7 @@ a{
     background-image: url(./img/projects/p6.png);
     background-size: cover;
     margin-left: 20%;
-}
+} */
 
 .skills-container{
     position: relative;
@@ -710,7 +710,9 @@ p{
 }
 
 #submit-btn:hover{
-    transform: scale(0.9);
+    transform: scale(0.7);
+    border-radius: 30px;
+    overflow: hidden;
 }
 
 footer{
