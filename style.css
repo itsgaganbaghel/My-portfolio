@@ -74,13 +74,13 @@ a{
 
 .nav-item:hover a{
     filter: blur(2px);
-    
 }
 .nav-item:hover a:hover
 {
     filter: blur(0);
+    font-weight: bold;
+    color: #ec5050;
 }
-
 .nav-item div{
     
     font-size: 22px;
@@ -93,12 +93,6 @@ a{
     text-decoration: none;
     transition: 0.1s;
 }
-
-.navbar .nav-item div a:hover{
-  font-weight: bold;
-  color: #ec5050;
-}
-
 .hero-section{
     /* width: 1200px;
     height: 500px; */
@@ -227,10 +221,11 @@ a{
     position: absolute;
 }
 
-.user-image{
-    /* border: 20px solid rgb(232, 230, 230); */
+/* no need of this css - because it doesn't create any effect  */
+/* .user-image{
+    border: 20px solid rgb(232, 230, 230);
     z-index: -9;
-}
+} */
 
 .user-image img{
     height: 420px;
@@ -258,7 +253,6 @@ a{
     }
     
 }
-
 .icon-dots{
     z-index: 9;
     bottom: -2rem;
@@ -627,6 +621,7 @@ p{
     left: 50%;
     z-index: -5;
     transform: translate(-50%, -50%);
+    /* border: 1px solid black; */
     animation: blobAnimate 3s linear infinite;
 }
 
@@ -690,7 +685,7 @@ p{
     border-radius: 10px;
     border: none;
     border-bottom: 2px solid white;
-    box-shadow: 1px 1px 5px #ffbebe;
+    box-shadow: 1px 2px 5px #ffbebe;
     font-weight: 900;
     margin: 17px 0;
 }
@@ -744,11 +739,11 @@ footer{
 
 .footer-links-wrapper a{
     color: white;
-    text-decoration: none;
+    /* text-decoration: none;  -- already define at the top */ 
     transition: all 0.3s;
 }
 
-.footer-links-wrapper div a:hover{
+.footer-links-wrapper a:hover{
 color: var(--bgOrange);
 }
 .fbtn{
