@@ -505,13 +505,13 @@ a{
 }
 
 #project1{
-    background-image: url(./img/projects/p1.png);
+    background-image: url(./img/projects/p2.png);
     background-size: cover;
-   
+    
 }
 
 #project2{
-    background-image: url(./img/projects/p2.png);
+    background-image: url(./img/projects/p1.png);
     background-size: cover;
     margin-left: 20%;
     
