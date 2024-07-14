@@ -533,16 +533,12 @@ a{
     margin-left: 20%;
 }
 
-/* #project5{
-    background-image: url(./img/projects/p5.png);
-    background-size: cover;
-}
-
 #project6{
-    background-image: url(./img/projects/p6.png);
+    background-image: url(./img/projects/p01.png);
     background-size: cover;
     margin-left: 20%;
-} */
+}
+
 
 .skills-container{
     position: relative;
@@ -849,7 +845,7 @@ color: var(--bgOrange);
     }
    
    
-    #project2, #project4{
+    #project2, #project4 , #project6 {
         margin-left: 0;
     }
 
@@ -858,12 +854,12 @@ color: var(--bgOrange);
        
     }
     #project2{
-        background-image: url(./img/projects/phone-p2.jpg);
+        /* background-image: url(./img/projects/phone-p2.jpg); */
         background-size: cover;
        
     }
     #project4{
-        background-image: url(./img/projects/phone-p4.jpg);
+        /* background-image: url(./img/projects/phone-p4.jpg); */
         background-size: cover;
        
     }
